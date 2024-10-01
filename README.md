@@ -1,3 +1,10 @@
+# MemeLeague
+It is a dynamic website which all users to post their own created memes and get an opportunity to glow up on leaderboard on a daily basis.It is created for fun and interaction of talented ones.Currently,memes being the most used widespread hub of laughter.The platform offers you with best opportunities to show your talent to the world,along with getting aptos generated APT Tokens based on each successful post or likes /downloads by others.
+
+# Laugh and make others too!😂🤣
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
