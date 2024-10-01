@@ -1,0 +1,105 @@
+.scrollTOP:hover{
+    background-color: rgb(37, 35, 35);
+   }
+   /*Chatbot*/
+   
+   
+   
+   /* src/components/Chatbot.css */
+   .chatbot-icon {
+       position: fixed;
+       bottom: 20px;
+       left: 20px;
+       background-color:#333399;
+       color: white;
+       width: 50px;
+       height: 50px;
+       border-radius: 50%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       cursor: pointer;
+       font-size: 24px;
+       z-index: 1000;
+     }
+     .chatbot-icon:hover{
+         background-color:rgb(37, 35, 35) ;
+     }
+     .chatbot {
+       position: fixed;
+       bottom: 20px;
+       left: 20px;
+       width: 300px;
+       height: 400px;
+       border: 1px solid #ccc;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       background-color: white;
+       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+       z-index: 1000;
+     }
+     
+     .chatbot-header {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 10px;
+       border-bottom: 1px solid #ccc;
+       background-color: #007bff;
+       color: white;
+     }
+     
+     .chatbot-messages {
+       padding: 10px;
+       flex-grow: 1;
+       overflow-y: auto;
+     }
+     
+     .message {
+       margin-bottom: 10px;
+       padding: 10px;
+       border-radius: 5px;
+     }
+     
+     .message.user {
+       background-color: #007bff;
+       color: white;
+       align-self: flex-end;
+     }
+     
+     .message.bot {
+       background-color: #f1f1f1;
+       align-self: flex-start;
+     }
+     
+     .chatbot-input {
+       display: flex;
+       border-top: 1px solid #ccc;
+     }
+     
+     .chatbot-input input {
+       flex-grow: 1;
+       border: none;
+       padding: 10px;
+     }
+     
+     .chatbot-input button {
+       border: none;
+       background-color: #007bff;
+       color: white;
+       padding: 10px;
+       cursor: pointer;
+     }
+     
+     .chatbot-input button:hover {
+       background-color: #0056b3;
+     }
+   
+     .card:hover {
+       transform:scale(1.1);
+   }
+   
+   .nav-item:hover{
+      color: yellow;
+   }
